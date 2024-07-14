@@ -56,6 +56,8 @@ void entrar(){
         if((usuarios[i].CPF == cpf) && (usuarios[i].senha == senha)){
             printf("\nVerificando dados");
             Sleep(1000);
+
+            
             printf(".");
             Sleep(1000);
             printf(".");
